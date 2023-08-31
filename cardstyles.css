@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(./img/Loon.jpg) repeat;
+  background-size: contain;
+
+}
+
+.title {
+  background-color: bisque;
+  height: 49px;
+  width: 224px;
+  margin: 0 auto;
+  background: rgba(246, 211, 171, 0.7);
+  border-radius: 20px;
+}
+
+.title-kanapki {
+  background-color: bisque;
+  height: 49px;
+  width: 448px;
+  margin: 0 auto;
+  background: rgba(246, 211, 171, 0.7);
+  border-radius: 20px;
+}
+
+.main-page-name {
+  text-align: center;
+  font-size: 40px;
+  line-height: 49px;
+  color: #1B1D1F;
+  /* background: #2400FF; */
+}
+
+/* Card */
+.jedzenia-page {
+  padding: 40px 20px;
+  margin: 0;
+}
+
+.return {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1B1D1F;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0.6;
+  text-align: center;
+  z-index: 1;
+
+}
+
+img {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 12px;
+}
+
+.jedzenia-name {
+  margin: 20px 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #1B1D1F;
+}
+
+.submain-text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #1B1D1F;
+
+}
+
+.jed-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #1B1D1F;
+  margin: 20px 0;
+}
+
+.content_card {
+  background-color: antiquewhite;
+  opacity: 0.7;
+  padding: 0 8px;
+  margin: 10px;
+  border: 1px solid antiquewhite;
+  border-radius: 20px;
+}
