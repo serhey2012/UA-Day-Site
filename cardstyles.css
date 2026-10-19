@@ -102,3 +102,7 @@ img {
   border: 1px solid antiquewhite;
   border-radius: 20px;
 }
+.img-kwas {
+  max-height: 320px;
+  object-fit: cover;
+}
